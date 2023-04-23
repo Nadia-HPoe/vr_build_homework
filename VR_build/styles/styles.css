@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Intro; 
+    src: local(IntroDemo-BlackCAPS), url(assets/fonts/IntroDemo-BlackCAPS.otf);
+   }
+
+:root {
+    --purp: #5222D0;
+    --rose: #EC615B;
+}
+.navbar-brandCustom{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.btnCustom{
+    background-color: var(--purp);
+    color: #ffffff;
+    font-family: Intro, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.logo{
+    margin: 50px 74px 0px 76px;
+}
+.card-title{
+    margin-top: 88px;
+    font-family: Intro, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+    color: #000000;
+}
+
+.card-text{
+    font-family: 'Roboto Slab' sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.nav-link{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: var(--purp);
+}
+
+.footcontainer{
+    margin-top: 86px;
+    margin-left: 126px;
+    margin-bottom: 80px;
+}
+.main__title{
+    margin-left: 125px;
+    font-family: Intro, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    color: #000000;
+}
+
+.card-img{
+    max-width: 100%;
+}
+.card-img-top{
+    padding: 1.5rem;
+}
+
+.cardCustom{
+    background-color: var(--rose);
+}
+
+.cardCustom2{
+    border-color: #BB2247;
+}
